@@ -48,7 +48,7 @@ for ii = 1:1
     ii;
     M = odeRK4fs(M);
     
-    save(matfilename)                                           % Save complete model
+   save(fullfile(unaccentedtest,matfilename));                % Save full model                                           % Save complete model
     
 end
 
@@ -76,6 +76,9 @@ xlabel('Natural Frequency (Hz)');
 ylabel('Amplitude (a.u.)');
 
 hold off
+
+% Save all currently opened figures
+save_all_figures_to_directory(unaccentedtest);
 
 
 

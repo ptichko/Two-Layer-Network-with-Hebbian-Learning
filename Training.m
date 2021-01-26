@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 % Modelling Auditory-Vestibular Interactions in Infant Rhythm Perception
 %
-% Dynamical systems model of Phillips-Silver & Trainor (2005), Science
+% Dynamical systems model based on Phillips-Silver & Trainor (2005), Science
 % Implemented using the Gradient Frequency Neural Network (GrFNN) Library
 % https://github.com/MusicDynamicsLab/GrFNNToolbox
 %
