@@ -28,12 +28,12 @@ width="600px">
 
 The model of auditory-vestibular interactions during infants’ processing
 of musical rhythm was implemented as a two-layer oscillatory netural
-network, with one network representing the auditory system, and the
-other representing a distributed vestibular-motor system. The networks
-are connected with auditory-motor efferent connections that allow
-activity from the motor network to propogate to the auditory network.
-The auditory network was equipped with a Hebbian plasticity rule to
-model short-term plasticity in the auditory system.
+network, with one network representing the auditory system and the other
+representing a distributed vestibular-motor system. The networks are
+connected with auditory-motor efferent connections that allow activity
+from the motor network to propogate to the auditory network. The
+auditory network was equipped with a Hebbian plasticity rule to model
+short-term plasticity in the auditory system.
 
 ## Simulations and Model Output
 
