@@ -26,14 +26,14 @@ This is a MATLAB implementation of a two-layer gradient-frequency neural network
 width="600px"></p>
 
 
-The model of auditory-vestibular interactions during infants' processing of musical rhythm was implemented as a two-layer oscillatory netural network, with one network representing the auditory system, and the other representing a distributed vestibular-motor system. The auditory network was equipped with a Hebbian plasticity rule to model short-term neural plasticity in the auditory system.
+The model of auditory-vestibular interactions during infants' processing of musical rhythm was implemented as a two-layer oscillatory netural network, with one network representing the auditory system, and the other representing a distributed vestibular-motor system. The networks are connected with auditory-motor efferent connections that allow activity from the motor network to propogate to the auditory network. The auditory network was equipped with a Hebbian plasticity rule to model short-term plasticity in the auditory system.
 
-## Model Output
+## Simulations and Model Output
 
-The main MATLAB script that trains the model is Training.m. There, users can specify a model to be trained on either an unaccented musical rhythm, duple- or triple-rate vestibular input, or both. In addition to starting the training sequence, running the training script will also create a folder called "121" where figures of the model will automatically be saved at the end of the simulation. 
+The main MATLAB script that trains the model is Training.m. There, users can specify a model to be trained on either an unaccented musical rhythm, vestibular input, or both. In addition to starting the training sequence, running the training script will also create a folder called "121" where figures of the model will be saved automatically at the end of the simulation. 
 
 
-The output of the model is set to display oscillator amplitudes, the auditory-vestibular inputs in the time domain, and the connection matrix of the neural network, amoung other figures. To capture the average oscillatory activity in the model during training, resonsant responses are also calculated and plotted at the end of the simulation. Here, we see large responses at 1.5 Hz, reflecting duple-rate vestibular training that this particular network received:
+The output of the model is set to display oscillator amplitudes, the auditory-vestibular inputs in the time domain, and the connection matrix of the neural network, among other figures. To capture the average oscillatory activity in the model during training, resonsant responses are also calculated and plotted at the end of the simulation. For example, below, we see the resonsant responses in the auditory network of a model that was trained on both the unaccented rhythm and duple-rate vestibular training. Note the large resonant responses that emerged at 1.5 Hz--the frequency of duple-rate vestibular input:
 <p align="center">
 <img src="ReadMeFigs/ResonsantResponses.png" alt="ResonantResponses."
 width="600px"></p>
