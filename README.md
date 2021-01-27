@@ -46,11 +46,11 @@ end of the simulation.
 
 The output of the model is set to display oscillator amplitudes, the
 auditory-vestibular inputs in the time domain, and the connection matrix
-of the neural network, among other figures. To capture the average
+of the auditory network, among other figures. To capture the average
 oscillatory activity in the model during training, resonsant responses
-are also calculated and plotted at the end of the simulation. For
-example, below, we see the resonsant responses in the auditory network
-of a model that was trained on both the unaccented rhythm and duple-rate
+are also calculated and plotted at the end of the simulation. As an
+example, below are the resonsant responses in the auditory network of a
+model that was trained on both the unaccented rhythm and duple-rate
 vestibular training. Note the large resonant responses that emerged at
 1.5 Hz–the frequency of duple-rate vestibular input:
 
