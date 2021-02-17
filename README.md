@@ -9,7 +9,7 @@
 
 This is a MATLAB implementation of a two-layer gradient-frequency neural
 network based off of [Tichko, Kim, & Large
-(2021)](https://www.researchgate.net/publication/340967869_Bouncing_the_Network_A_Dynamical_Systems_Model_of_Auditory-Vestibular_Interactions_Underlying_Infants'_Perception_of_Musical_Rhythm),
+(2021)](https://onlinelibrary.wiley.com/doi/10.1111/desc.13103),
 who simulated auditory-vestibular interactions underlying infants’
 perception of musical rhythm (e.g., [Phillips-Silver &
 Trainor, 2005](https://science.sciencemag.org/content/308/5727/1430.abstract?casa_token=7m08V2fNsVMAAAAA:xoGCt6u7BKMu6pMT7I71NHdZ8tjGIdVYiFBpyuhOYJXcZrYS1Phu0-v28g3jE0g_vFz9FYqDHH2zNw)).
