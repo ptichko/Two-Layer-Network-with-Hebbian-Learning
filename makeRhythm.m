@@ -15,7 +15,7 @@ n2 = networkMake(2,'hopf', alpha1, beta11, beta12, delta11, delta12, neps1, ...
 %%%%%% Network parameters %%%%%%
 w = 0.5;                                                    % Internal connection weights
 w2 = 0.75;                                                  % Efferent connection weights
-C3  = connectMake(n2, n1, 'full', .0065);                   % Diffused auditory-motor connections, 0.015 for latest.
+C3  = connectMake(n2, n1, 'full', .0065);                   % Diffused auditory-motor connections
 
 %%%%%% Connections to Stimuli %%%%%%       
 n1 = connectAdd(s1, n1, 1, '1freq');                        % Rhythm to auditory network           
